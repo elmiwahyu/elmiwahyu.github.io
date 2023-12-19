@@ -1,0 +1,128 @@
+body {
+  font-family: sans-serif;
+  /* Mengatur font untuk seluruh halaman */
+}
+
+.container {
+  width: 70%; /* Sesuaikan lebar kotak dengan kebutuhan Anda */
+  margin: 0 auto; /* Untuk membuat kotak berada di tengah */
+  border: 1px solid #ccc; /* Garis tepi untuk kotak */
+  padding: 20px; /* Jarak antara konten dengan tepi kotak */
+  margin-top: 70px;
+}
+
+.resume {
+  margin-top: 50px;
+  display: flex; /* Menggunakan flexbox untuk menata kedua kolom */
+  justify-content: space-between; /* Menyisipkan ruang di antara kedua kolom */
+}
+
+.left-column,
+.right-column {
+  flex-basis: 48%; /* Mengatur lebar relatif dari setiap kolom */
+}
+
+.left-column {
+  flex-basis: 48%; /* Mengatur lebar relatif dari setiap kolom */
+  text-align: left; /* Mengatur teks pada kolom kanan ke kanan */
+  padding-left: 40px;
+}
+
+.right-column {
+  flex-basis: 48%; /* Mengatur lebar relatif dari setiap kolom */
+  text-align: left; /* Mengatur teks pada kolom kanan ke kanan */
+  padding-left: 100px;
+}
+
+/* Styling tambahan sesuai kebutuhan */
+h2 {
+  margin-top: 0; /* Menghapus margin atas dari judul */
+}
+
+p {
+  margin-bottom: 8px; /* Mengatur jarak antara paragraf */
+}
+
+.custom-heading {
+  font-weight: bold; /* Membuat teks menjadi bold */
+  color: #446bf6; /* Mengatur warna teks */
+  font-size: 40px; /* Mengatur ukuran font */
+}
+
+.special-text {
+  font-size: 20px; /* Mengatur ukuran font */
+  margin-top: -20px;
+}
+
+/* CSS untuk kelas .about */
+.about {
+  margin-top: 60px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #446bf6; /* warna teks yang Anda inginkan */
+  /* properti lain sesuai kebutuhan */
+}
+
+/* CSS untuk kelas .about-text */
+.about-text {
+  margin-top: -10px;
+  font-size: 16px;
+  line-height: 1.6; /* jarak antara baris */
+  color: #000000; /* warna teks yang Anda inginkan */
+  text-align: justify;
+}
+
+/* CSS untuk gambar */
+img {
+  max-width: 100%; /* Memastikan gambar tidak melebihi lebar parent */
+  height: 50%; /* Mempertahankan proporsi asli gambar */
+  display: block; /* Menghindari spasi tambahan di sekitar gambar */
+  margin-top: 10px; /* Menambahkan jarak di atas gambar */
+  /* Properti lain sesuai kebutuhan */
+}
+/* CSS untuk kelas .foto-elmi */
+.foto-elmi {
+  max-width: 70%; /* Memastikan gambar tidak melebihi lebar parent */
+  height: auto; /* Mempertahankan proporsi asli gambar */
+  display: block; /* Menghindari spasi tambahan di sekitar gambar */
+  margin-top: -60px; /* Menambahkan jarak di atas gambar */
+  /* Properti lain sesuai kebutuhan */
+}
+
+.edu {
+  margin-top: 28px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #446bf6; /* warna teks yang Anda inginkan */
+  /* properti lain sesuai kebutuhan */
+}
+/* CSS untuk daftar pendidikan */
+.education-list {
+  list-style-type: disc;
+  margin-left: 20px; /* Jarak daftar dari tepi kiri */
+  padding-left: 0; /* Hilangkan padding bawaan dari daftar */
+}
+
+.education-list li {
+  margin-bottom: 5px; /* Jarak antara setiap item daftar */
+}
+
+.education-item h3 {
+  color: #446bf6;
+  font-size: 17px; /* Ukuran font */
+  font-weight: bold; /* Ketebalan font */
+  margin-bottom: -5px;
+
+  /* Properti lain sesuai kebutuhan */
+}
+
+/* CSS untuk mengatur jarak pada elemen p di dalam .education-item */
+.education-item p {
+  margin-bottom: -15px; /* Jarak antara setiap elemen p */
+}
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
